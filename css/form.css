@@ -1,0 +1,51 @@
+.form {
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    max-width: 360px;
+    background-color: #f2f3f3;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+
+.form__container {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form__title {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.form__labelText {
+    display: inline inline-block;
+    border: 2px splid black;
+    margin-left: 40px;
+}
+
+.button {
+    background-color: #b3b7bc;
+    border-radius: 4px;
+
+}
+
+.button:hover {
+    background-color:  #99a0a7;
+}
+
+.button:active {
+    background-color: #ed2d5a;
+    ;
+}
+
+.form__bottomText {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    text-align: center;
+}
