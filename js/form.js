@@ -7,13 +7,13 @@ let euro = (euroElement.value);
 let zloty = (zlotyElement.value);
 
 
-zlotyElement.value === euroElement.value / 4.8;
-euroElement.value === zlotyElement.value * 4.8;
+zlotyElement.value === euroElement.value / 4.7;
+euroElement.value === zlotyElement.value * 4.7;
 
 zlotyElement.addEventListener("input", () => {
-    euroElement.value = (+zlotyElement.value * 4.8).toFixed(2);
+    euroElement.value = (+zlotyElement.value * 4.7).toFixed(2);
 })
 
 euroElement.addEventListener("input", () => {
-    zlotyElement.value = (+euroElement.value / 4.8).toFixed(2);
+    zlotyElement.value = (+euroElement.value / 4.7).toFixed(2);
 })
