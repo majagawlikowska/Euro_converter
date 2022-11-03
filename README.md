@@ -1,6 +1,6 @@
 # Euro-converter
-![converter](images/screen.png)
+![converter](images/Animation2.gif)
 ## Description
-This is very simple, fast, easy going 2 currencies converter (Euro/Polish zloty). All you need to do is fill any field up and you get exchanged result.
+This project is a simple, fast, easy-going two currencies converter (Euro/Polish zloty). All you need to do is fill up any field and it shows immediately exchanged results.
 
 https://majagawlikowska.github.io/euro_converter/
