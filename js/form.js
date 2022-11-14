@@ -1,16 +1,16 @@
 console.log("have fun");
 
-let euroElement = document.querySelector(".js-euro");
-let zlotyElement = document.querySelector(".js-zloty");
+{
 
-let euro = (euroElement.value);
-let zloty = (zlotyElement.value);
+const euroElement = document.querySelector(".js-euro");
+const zlotyElement = document.querySelector(".js-zloty");
 
-
-zlotyElement.addEventListener("input", () => {
+convertCurrencyEuro = zlotyElement.addEventListener("input", () => {
     euroElement.value = (+zlotyElement.value * 4.7).toFixed(2);
 })
-
-euroElement.addEventListener("input", () => {
+convertCurrencyZloty = euroElement.addEventListener("input", () => {
     zlotyElement.value = (+euroElement.value / 4.7).toFixed(2);
 })
+
+
+}
